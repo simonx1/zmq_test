@@ -1,8 +1,7 @@
-source 'http://gems.github.com'
-source 'http://gemcutter.org'
 source 'http://rubygems.org'
-
 
 gem 'json'
 gem 'multi_json'
-gem 'em-zeromq'
+gem 'eventmachine', '1.0.0'
+#gem 'em-zeromq'
+gem 'zmqmachine'
